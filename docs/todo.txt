@@ -1,0 +1,40 @@
+✰
+	En el componente MenuBar que es hijo del componente Shell implementar la accion pin 
+	al igual que en el componente ControlDashboard, esta funcion permite
+	fijar o no el componente shell en la posicion top 0.
+✰ 
+	Refactorizar la funcion handleClick del componente MenuBar que es hijo del componente
+	Shell basandome en el codigo handleClick del componente ControlDashboard.
+
+✰
+	Modificar la implementacion del componente Icon en atoms.
+
+✰
+	Refactorizar dashboard_reducer
+
+           __-----_.                        ________
+          /  \      \           o  O  O   _(        )__
+         /    |  |   \_---_   o._.      _(             )_
+        |     |            \   | |""""(_   Hello World!  )
+        |     |             |@ | |    (_               _)
+         \___/   ___       /   | |      (__          _)
+           \____(____\___/     | |         (________)
+           |__|                | |          |
+           /   \-_             | |         |'
+         /      \_ "__ _       !_!--v---v--"
+        /         "|  |>)      |""""""""|
+       |          _|  | ._--""||        |
+       _\_____________|_|_____||________|_
+      /                                   \
+     /_____________________________________\
+     /                                     \
+    /_______________________________________\
+    /                                       \
+   /_________________________________________\
+        {                               }
+        <_______________________________|
+        |                               >
+        {_______________________________|               ________
+        <                               }              / MINIMI \
+        |_______________________________|             /__________\
+\|/       \\/             \||//           |//                       \|/    |/
