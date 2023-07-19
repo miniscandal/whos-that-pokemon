@@ -18,7 +18,7 @@ Explora las evoluciones del Pokémon.
 
 ≧◠‿◠≦
 
-1. Clona el repositorio `git clone https://github.com/miniscandal/whos-that-pokemon`  
+1. Clona el repositorio `git clone https://github.com/miniscandal/whos-that-pokemon.git`  
    en tu computadora.
 2. Abre una terminal en la carpeta del proyecto.
 3. Ejecuta el comando `npm install` para instalar las dependencias del proyecto.
