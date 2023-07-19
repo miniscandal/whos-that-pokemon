@@ -1,0 +1,37 @@
+.rectangular_button {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: #7b586b;
+    box-shadow: -2px 2px #453c41;
+    position: relative;
+}
+
+.rectangular_button > button {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.rectangular_button:hover::after {
+    content: attr(data-parent);
+    display: block;
+    width: 80px;
+    padding: 2px 10px;
+    position: absolute;
+    top: -100%;
+    left: -200%;
+    z-index: 1;
+    text-align: center;
+    background-color: #ffff7f;
+    font-family: 'Orbitron Variable';
+    border-radius: 4px 4px 4px 4px;
+    animation: 1s infinite zoom;
+}
+
+@keyframes zoom {
+    0% { transform: scale(1.1) }
+    50% { transform: scale(1) }
+    100% { transform: scale(1.1) }
+}

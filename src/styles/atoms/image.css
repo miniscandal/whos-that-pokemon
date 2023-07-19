@@ -1,0 +1,8 @@
+.image {
+    width: 200px;
+    margin: auto;
+}
+
+.image--blur {
+    filter: contrast(0%);
+}

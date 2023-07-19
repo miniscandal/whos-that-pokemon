@@ -1,0 +1,5 @@
+.group_leds {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

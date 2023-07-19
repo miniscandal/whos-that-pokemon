@@ -1,0 +1,15 @@
+.font--normal { font-weight: normal; }
+
+.font--bold { font-weight: bold; }
+
+.font--size_small { font-size: 0.8rem; }
+
+.font--size_medium { font-size: 0.9rem; }
+
+.font--size_normal { font-size: 1rem; }
+
+.font--size_big { font-size: 3.5rem; }
+
+.font--family--pokemon_solid { font-family: 'Pokemon Solid'; }
+
+.font--family--orbitron_variable { font-family: 'Orbitron Variable'; }

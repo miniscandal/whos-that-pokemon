@@ -1,0 +1,42 @@
+.select_deck_button {
+    width: 40px;
+    height: 60px;
+    border-radius: 4px;
+    background-color: #ff3232;
+    box-shadow: -2px 2px 0 #990000;
+    position: relative;
+    transition: transform 0.2s;
+}
+
+.select_deck_button:hover {
+    cursor: pointer;
+    transition: transform 0.2s;
+    transform: scale(1.1);
+}
+
+.select_deck_button > .led {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(0.4);
+}
+
+.select_deck_button > h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.56);
+}
+
+.select_deck_button::after {
+    content: '';
+    display: block;
+    width: 88%;
+    height: 92%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid 1px #990000;
+    border-radius: 4px;
+}

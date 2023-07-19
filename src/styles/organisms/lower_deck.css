@@ -1,0 +1,53 @@
+.lower_deck {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lower_deck__div--first {
+    display: flex;
+}
+
+.lower_deck__div--first > .led:first-child {
+    margin-right: 2rem;
+}
+
+.lower_deck__div--picture:first-child {
+    display: flex;
+    justify-content: center;
+}
+
+.lower_deck__div--picture:nth-child(2) {
+    height: 220px;
+    margin: 4px 16px;
+    border-radius: 4px;
+    background-color: #453c41;
+}
+
+.lower_deck__div--picture:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 16px;
+    position: relative;
+}
+
+.lower_deck__div--joystick {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower_deck__div--joystick--button {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.lower_deck__div--joystick--display {
+    display: flex;
+    align-items: center;
+}
+
+.lower_deck__div--joystick--display > div:first-child {
+    margin-right: 10px;
+}

@@ -1,0 +1,11 @@
+import '../../styles/organisms/header.css';
+
+function Header() {
+   
+    return (
+        <header className="header">
+        </header>
+    );
+}
+
+export default Header;

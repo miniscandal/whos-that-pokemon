@@ -1,0 +1,144 @@
+.led {
+    display: flex;
+    position: relative;
+    background-color: #d4dbe2;
+}
+
+.led > div {
+    position: absolute;
+}
+
+.round_led {
+    border-radius: 50%;
+}
+
+.round_led > div {
+    border-radius: 50%;
+}
+
+.led__div--first {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 94%;
+    height: 94%;
+}
+
+.led__div--second {
+    top: 48%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+}
+
+.led__div--third {
+    top: 35%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: 20%;
+}
+
+.round_led--small {
+    width: 0.9rem;
+    height: 0.9rem;
+}
+
+.round_led--medium {
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+.round_led--big {
+    width: 4.4rem;
+    height: 4.4rem;
+}
+
+.led--red > .led__div--first {
+    background-color: #ff0000;
+}
+
+.led--red > .led__div--second {
+    background-color: #ff3232;
+}
+
+.led--red > .led__div--third {
+    background-color: #ff7f7f;
+}
+
+.led--yellow > .led__div--first {
+    background-color: #cccc00;
+}
+
+.led--yellow > .led__div--second {
+    background-color: #e5e500;
+}
+
+.led--yellow > .led__div--third {
+    background-color: #ffff7f;
+}
+
+.led--green > .led__div--first {
+    background-color: #00b300;
+}
+
+.led--green > .led__div--second {
+    background-color: #00cd00;
+}
+
+.led--green > .led__div--third {
+    background-color: #b2d8b2;
+}
+
+.led--blue > .led__div--first {
+    background-color: #0088cc;
+}
+
+.led--blue > .led__div--second {
+    background-color: #049cdb;
+}
+
+.led--blue > .led__div--third {
+    background-color: #99ccff;
+}
+
+.led--white > .led__div--first {
+    background-color: #d8d8d8;
+}
+
+.led--white > .led__div--second {
+    background-color: #e5e5e5;
+}
+
+.led--white > .led__div--third {
+    background-color: #f2f2f2;
+}
+
+.rectangular_led {
+    border-radius: 6px;
+}
+
+.rectangular_led > div {
+    border-radius: 6px;
+}
+
+.rectangular_led--small {
+    width: 2.8rem;
+    height: 0.6rem;
+}
+
+.rectangular_led--medium {
+    width: 3.5rem;
+    height: 1rem;
+}
+
+.rectangular_led--big {
+    width: 3.6rem;
+    height: 2.4rem;
+    border-radius: 2px;
+}
+
+.rectangular_led--big > div {
+    border-radius: 2px;
+}

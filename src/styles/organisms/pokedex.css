@@ -1,0 +1,45 @@
+.pokedex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokedex__div--select {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.pokedex__div--select > .select_deck_button {
+    margin: 0 1rem;
+}
+
+.lower_deck--hide > div:first-child {
+    display: none;
+}
+
+.top_deck--hide > div:last-child {
+    display: none;
+}
+
+@media (min-width: 800px) {
+    .pokedex__div--select {
+        display: none;
+    }
+
+    .pokedex__div--deck {
+        display: flex;
+    }
+
+    .pokedex__div--deck > div:last-child {
+        box-shadow: 0 4px 0 #990000;
+    }
+
+    .lower_deck--hide > div:first-child {
+        display: flex;
+    }
+
+    .top_deck--hide > div:last-child {
+        display: flex;
+    }
+}

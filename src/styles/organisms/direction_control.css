@@ -1,0 +1,36 @@
+.direction_control {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    width: 6.5rem;
+    height: 6.5rem;
+}
+
+.direction_control > div {
+    margin: 1px;
+}
+
+.direction_control > div:nth-child(1)  {
+    grid-column: 1 / 4;
+    grid-row: 4 / 6;
+}
+
+.direction_control > div:nth-child(2) {
+   grid-column: 6 / 9;
+   grid-row: 4 / 6;
+}
+
+.direction_control > div:nth-child(3) {
+    grid-column: 4 / 6;
+    grid-row: 1 / 4;
+}
+
+.direction_control > div:nth-child(4) {
+   grid-column: 4 / 6;
+   grid-row: 6 / 9;
+}
+
+.direction_control > div:nth-child(5) {
+    grid-column: 4 / 6;
+    grid-row: 4 / 6;
+ }

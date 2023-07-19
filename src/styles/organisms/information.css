@@ -1,0 +1,15 @@
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    width: 140px;
+    height: 3.5rem;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: #453c41;
+}
+
+.information > .paragraph:first-child {
+    align-items: center;
+}

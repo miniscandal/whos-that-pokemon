@@ -1,0 +1,17 @@
+.title--h1_letter_pokemon {
+    font-size: 2rem;
+    font-family: 'Pokemon Solid';
+    text-shadow: 1px 1px 12px #000099;
+}
+
+@media (min-width: 500px) {
+    .title--h1_letter_pokemon {
+        font-size: 2.4rem;
+    }
+}
+
+@media (min-width: 600px) {
+    .title--h1_letter_pokemon {
+        font-size: 2.6rem;
+    }
+}
