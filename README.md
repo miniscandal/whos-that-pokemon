@@ -40,22 +40,22 @@ Run application:
 npm run dev
 ```
 
-### Uso
+### Demostración
 
 ≧◠‿◠≦
 
 <img src="./docs/pictures/rec-screen.gif" width="540">
 
 
+#### Elementos Secretos
+
+Si no conoces el nombre del Pokémon, puedes usar el código Konami "wwssadadba".
 
 
 
 ## Documentación 
  ≧◠‿◠≦
 
-### Elementos Secretos
-
-Si no conoces el nombre del Pokémon, puedes usar el código Konami "wwssadadba".
 
 ### Tecnologías avanzadas
 
