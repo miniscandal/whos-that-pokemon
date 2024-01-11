@@ -1,0 +1,5 @@
+.group_two_rectangular_leds {
+    display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+}

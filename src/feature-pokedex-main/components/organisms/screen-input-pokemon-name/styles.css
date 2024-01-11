@@ -1,0 +1,10 @@
+.screen_input_pokemon_name__header {
+    display: flex;
+    justify-content: center;
+}
+
+.screen_input_pokemon_name__picture {
+	border-radius: 6px;
+	margin: 5px 0;
+	background-color: var(--background-color-navi-blue);
+}

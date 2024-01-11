@@ -1,0 +1,29 @@
+.app__buttons {
+	display: flex;
+	justify-content: center;
+	margin: 50px 0 50px 0;
+	gap: 20px;
+}
+
+.app__main {
+	margin-bottom: 50px;
+}
+
+.app__pokedex[data-hidden=true] {
+	display: none;
+}
+
+@media (width > 900px) {
+	.app__buttons {
+		display: none;
+	}
+
+	.app__main {
+		display: flex;
+		justify-content: center;
+	}
+
+	.app__pokedex[data-hidden=true] {
+		display: block;
+	}
+}

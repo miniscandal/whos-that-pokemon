@@ -1,0 +1,25 @@
+.text_input_box {
+	width: 200px;
+	padding: 0.5rem 1rem;
+	text-align: center;
+	text-transform: uppercase;
+	color: var(--color-green);
+	letter-spacing: 1px;
+	outline: none;
+	border: none;
+	border-radius: 6px;
+	background-color: var(--background-color-neon-blue);
+	font-family: "Orbitron";
+	font-weight: bold;
+	font-size: var(--font-size-text-regular);
+	user-select: none;
+}
+
+.text_input_box:hover {
+	cursor: pointer;
+}
+
+.text_input_box::placeholder {
+	color: currentColor;
+	filter: contrast(80%);
+}

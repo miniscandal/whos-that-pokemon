@@ -1,0 +1,20 @@
+.title_pokemon {
+	font-family: 'Pokemon';
+	font-size: 3rem;
+	color: var(--color-yellow);
+	text-align: center;
+	text-shadow: -4px 4px 2px #000099, -4px 4px 10px #000099, -4px 4px 20px #000099;
+	line-height: 2;
+}
+
+@media (width > 500px) {
+	.title_pokemon {
+		font-size: 4rem;
+	}
+}
+
+@media (width > 600px) {
+	.title_pokemon {
+		font-size: 5rem;
+	}
+}

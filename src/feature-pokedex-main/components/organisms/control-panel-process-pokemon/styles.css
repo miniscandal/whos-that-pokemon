@@ -1,0 +1,18 @@
+.control_panel_process_pokemon {
+	display: flex;
+	justify-content: space-between;
+}
+
+.control_panel_process_pokemon__btn_led {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+}
+
+.control_panel_process_pokemon__led_info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}

@@ -1,0 +1,40 @@
+.screen_write_specie_description pre {
+	height: 160px;
+	padding: 1rem;
+	border-radius: 4px;
+	text-wrap: wrap;
+	color: var(--color-green);
+	font-family: 'Orbitron';
+	font-size: var(--font-size-text-regular);
+	background-color: var(--background-color-neon-blue);
+	letter-spacing: 1px;
+	line-height: 18px;
+	overflow-y: auto;
+}
+
+.screen_write_specie_description pre::after {
+	content: '_';
+	animation: 1.5s cursor infinite;
+}
+
+@keyframes cursor {
+	0% {
+		color: transparent;
+	}
+
+	25% {
+		color: currentColor;
+	}
+
+	50% {
+		color: transparent;
+	}
+
+	75% {
+		color: currentColor;
+	}
+
+	100% {
+		color: transparent;
+	}
+}

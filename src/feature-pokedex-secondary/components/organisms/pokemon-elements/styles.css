@@ -1,0 +1,8 @@
+.pokemon_elements {
+	display: flex;
+	gap: 50px;
+}
+
+.pokemon_elements > div {
+	width: 100%;
+}

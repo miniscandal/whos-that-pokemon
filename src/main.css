@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Pokemon';
+    src: url('./assets/fonts/pokemon/Pokemon-Solid.ttf');
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('./assets/fonts/orbitron/Orbitron-Regular.ttf');
+    font-display: block;
+}
+
+:root {
+    --theme-background-color: #eaeaf1;
+    --theme-background-color-light: #eaeaf1;
+    --theme-background-color-dark: #535353;
+    --font-size-text-small: 1.2rem;
+    --font-size-text-regular: 1.4rem;
+    --font-size-text-large: 1.6rem;
+    --font-size-h1: 3.6rem;
+    --font-size-h2: 3rem;
+    --font-size-h3: 2.4rem;
+    --font-size-h4: 1.8rem;
+    --color-green: #00ff00;
+    --color-yellow: #e5e500;
+    --color-dark: #2e2e2e;
+    --color-light: #eeeeee;
+    --color-error: #fc4e19;
+    --color-pokedex-shadow: #9c0000;
+    --background-color-neon-blue: #3c4ebe;
+    --background-color-neon-green: #86e505;
+    --background-color-navi-blue: #3b6286;
+    --background-color-pokedex: #ff1616;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body[data-theme-color=dark] {
+    background-color: var(--theme-background-color-dark);
+}
+
+body[data-theme-color=light] {
+    background-color: var(--theme-background-color-light);
+}
+
+
+body {
+    background-color: var(--theme-background-color);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --theme-background-color: #535353;
+    }
+}

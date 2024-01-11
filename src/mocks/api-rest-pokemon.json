@@ -1,0 +1,12 @@
+{
+	"id": 99,
+	"name": "Evie",
+	"base_experience": 39,
+	"types": [
+		{
+			"type": {
+				"name": "electric"
+			}
+		}
+	]
+}

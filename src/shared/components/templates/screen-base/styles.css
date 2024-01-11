@@ -1,0 +1,12 @@
+.screen_base {
+	border-radius: 8px;
+	background-color: #838f9b;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+.screen_base__children {
+	border-radius: 6px;
+	padding: 5px;
+	background-color: #dadbdb;
+}

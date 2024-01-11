@@ -1,0 +1,21 @@
+.paragraph_binary_effect {
+	font-family: 'Orbitron';
+	font-size: var(--font-size-text-small);
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: var(--color-dark);
+	text-transform: uppercase;
+}
+
+.paragraph_binary_effect[data-binary-effect=true]::after {
+	content: "10101010";
+	animation: letter 2s infinite;
+}
+
+@keyframes letter {
+    0% { content: '10101010'; }
+    25% { content: '11010101'; }
+    50% { content: '10111010'; }
+    75% { content: '00010111'; }
+    100% { content: '10101010'; }
+}

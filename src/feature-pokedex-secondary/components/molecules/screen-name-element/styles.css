@@ -1,0 +1,19 @@
+.screen_name_element__content {
+	height: 6rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	padding: 5px;
+	text-align: center;
+	border-radius: 3px;
+	background-color: var(--background-color-neon-blue);
+}
+
+.screen_name_element__text {
+	width: 100%;
+	padding: 0.5rem;
+	border-radius: 3px;
+	background-color: var(--background-color-neon-green);
+}

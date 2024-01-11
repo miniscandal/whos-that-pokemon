@@ -1,0 +1,54 @@
+✰
+	Refactor api feth service.
+✰
+	Name options for functions:
+		create element name list = crear lista de nombres de elementos
+		extract element names = extraer nombres de elementos
+		retrieve element names = recuperar nombres de elementos
+		process element names = nombres de elementos de proceso
+✰
+	Fixed bug when use mocks
+✰
+	Deleted files and directories.
+✰
+	Order imports
+	1.- useState, useEffect, Suspense, useEffect
+	2.- contexts
+	3.- services
+	4.- shared
+	5.- feature current (atoms, molucules, organisms, templates, suspense)
+	6.- constants
+	7.- assets
+	8.- styles
+
+/** ************************************************************************ **/
+
+           __-----_.                        ________
+          /  \      \           o  O  O   _(        )__
+         /    |  |   \_---_   o._.      _(             )_
+        |     |            \   | |""""(_   Hello World!  )
+        |     |             |@ | |    (_               _)
+         \___/   ___       /   | |      (__          _)
+           \____(____\___/     | |         (________)
+           |__|                | |          |
+           /   \-_             | |         |'
+         /      \_ "__ _       !_!--v---v--"
+        /         "|  |>)      |""""""""|
+       |          _|  | ._--""||        |
+       _\_____________|_|_____||________|_
+      /                                   \
+     /_____________________________________\
+     /                                     \
+    /_______________________________________\
+    /                                       \
+   /_________________________________________\
+        {                               }
+        <_______________________________|
+        |                               >
+        {_______________________________|               ________
+        <                               }              / MINIMI \
+        |_______________________________|             /__________\
+\|/       \\/             \||//           |//                       \|/    |/
+
+/** ************************************************************************ **/
+

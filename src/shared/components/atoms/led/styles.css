@@ -1,0 +1,141 @@
+.led {
+	position: relative;
+}
+
+.led > div {
+	top: 50%;
+	left: 50%;
+	background-color: #ffffff;
+	position: absolute;
+	filter: opacity(25%)
+}
+
+.led[data-color=yellow] {
+	background-color: #c5c500;
+}
+
+.led[data-color=blue] {
+	background-color: #6d6dff;
+}
+
+.led[data-color=red] {
+	background-color: #ff0000;
+}
+
+.led[data-color=green] {
+	background-color: #008000;
+}
+
+.led[data-color=white] {
+	background-color: #c5c5c5;
+}
+
+.led[data-color=transparent] {
+	background-color: #ffffff00;
+}
+
+/***************************** Styles ButtonPad  *****************************/
+
+/***************************** round ***/
+
+.led[data-shape=round] {
+    width: 50px;
+	height: 50px;
+}
+
+.led[data-shape=round] > .led__first {
+	width: 80%;
+	height: 80%;
+	transform: translate(-53%, -53%);
+}
+
+.led[data-shape=round] > .led__second {
+	width: 25%;
+	height: 25%;
+	transform: translate(-100%, -100%);
+}
+
+.led[data-shape=round], .led[data-shape=round] > div {
+	border-radius: 50%;
+}
+
+.led[data-size=small][data-shape=round] {
+	width: 15px;
+    height: 15px;
+	box-shadow: 0 0 3px #3a3a3a, inset 0 0 3px #3a3a3a;
+}
+
+.led[data-size=medium][data-shape=round] {
+	width: 25px;
+    height: 25px;
+	box-shadow: 0 0 5px #3a3a3a, inset 0 0 5px #3a3a3a;
+}
+
+.led[data-size=standard][data-shape=round] {
+	width: 30px;
+    height: 30px;
+	box-shadow: 0 0 4px #3a3a3a, inset 0 0 6px #3a3a3a;
+}
+
+.led[data-size=large][data-shape=round] {
+	width: 65px;
+    height: 65px;
+	box-shadow: 0 0 10px #3a3a3a, inset 0 0 10px #3a3a3a;
+}
+
+/***************************** rectangular ***/
+
+.led[data-shape=rectangular] > .led__first {
+	width: 60%;
+	height: 60%;
+	transform: translate(-65%, -65%);
+}
+
+.led[data-shape=rectangular] > .led__second {
+	width: 20%;
+	height: 20%;
+	transform: translate(-115%, -115%);
+}
+
+.led[data-shape=rectangular], .led[data-shape=rectangular] > div {
+	border-radius: 4px;
+}
+
+.led[data-size=standard][data-shape=rectangular] {
+	width: 60px;
+	height: 20px;
+	box-shadow: 0 0 4px #3a3a3a, inset 0 0 4px #3a3a3a;
+}
+
+.led[data-size=large][data-shape=rectangular] {
+	width: 60px;
+	height: 40px;
+	box-shadow: 0 0 4px #3a3a3a, inset 0 0 4px #3a3a3a;
+}
+
+/***************************** resizable-rectangular ***/
+
+.led[data-size=resizable] {
+	width: 100%;
+	height: 100%;
+}
+
+.led[data-shape=resizable] > .led__first {
+	width: 80%;
+	height: 80%;
+	transform: translate(-50%, -50%);
+}
+
+.led[data-shape=resizable] > .led__second {
+	width: 50%;
+	height: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.led[data-shape=resizable], .led[data-shape=resizable] > div {
+	border-radius: 4px;
+}
+
+.led[data-size=resizable][data-shape=resizable] {
+	box-shadow: 0 0 4px #3a3a3a, inset 0 0 4px #3a3a3a, 0 0 10px #3a3a3a;
+}

@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@assets-images/*": [
+				"./src/assets/images/*"
+			],
+			"@core-constants/*": [
+				"./src/core/constants/*"
+			],
+			"@core-services/*": [
+				"./src/core/services/*"
+			],
+			"@core-api-rest-endpoints/*": [
+				"src/core/services/api-rest-endpoints/*"
+			],
+			"@shared-components/*": [
+				"./src/shared/components/*"
+			],
+			"@shared-contexts/*": [
+				"./src/shared/contexts/*"
+			],
+			"@shared-custom-hooks/*": [
+				"./src/shared/custom-hooks/*"
+			],
+			"@shared-services/*": [
+				"./src/shared/services/*"
+			]
+		}
+	}
+}

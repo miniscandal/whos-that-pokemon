@@ -1,0 +1,25 @@
+{
+    "chain": {
+        "evolves_to": [
+            {
+                "evolves_to": [
+                    {
+                        "evolves_to": [],
+                        "species": {
+                            "name": "raichu",
+                            "url": "https://pokeapi.co/api/v2/pokemon-species/26/"
+                        }
+                    }
+                ],
+                "species": {
+                    "name": "pikachu",
+                    "url": "https://pokeapi.co/api/v2/pokemon-species/25/"
+                }
+            }
+        ],
+        "species": {
+            "name": "pichu",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/172/"
+        }
+    }
+}

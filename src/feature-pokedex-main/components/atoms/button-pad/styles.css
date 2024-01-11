@@ -1,0 +1,45 @@
+.button_pad {
+	width: 40px;
+	height: 40px;
+	border: none;
+	padding: 0 0 3px 3px;
+	background-color: #453c41;
+}
+
+.button_pad > div {
+    height: 100%;
+    background-color: #7b586b;
+}
+
+.button_pad:hover {
+	cursor: pointer;
+}
+
+.button_pad:active > div {
+	width: calc(100% - 1px);
+	height: calc(100% - 1px);
+}
+
+/***************************** Styles ButtonPad  *****************************/
+
+/***************************** Square ***/
+
+.button_pad[data-shape=square] {
+	border-radius: 7px 4px 7px 7px;
+}
+
+
+.button_pad[data-shape=square] > div {
+	border-radius: 4px;
+}
+
+/****************************** Round  ***/
+
+.button_pad[data-shape=round] {
+	border-radius: 50%;
+}
+
+
+.button_pad[data-shape=round] > div {
+	border-radius: 50%;
+}

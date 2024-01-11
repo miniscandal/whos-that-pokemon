@@ -1,0 +1,17 @@
+.paragraph {
+	font-family: 'Orbitron';
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.paragraph[data-size=small] {
+	font-size: var(--font-size-text-small);
+}
+
+.paragraph[data-color=light] {
+	color: var(--color-light);
+}
+
+.paragraph[data-color=error] {
+	color: var(--color-error);	
+}
