@@ -1,7 +1,0 @@
-.group_two_round_leds {
-    display: flex;
-}
-
-.group_two_round_leds > .led:first-child {
-    margin-right: 0.4rem;
-}

@@ -1,7 +1,0 @@
-.group_two_rectangular_leds {
-    display: flex;
-}
-
-.group_two_rectangular_leds > .led:first-child {
-    margin-right: 0.5rem;
-}

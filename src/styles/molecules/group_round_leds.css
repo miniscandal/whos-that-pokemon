@@ -1,7 +1,0 @@
-.group_round_leds {
-    display: flex;
-}
-
-.group_round_leds > .led {
-    margin-right: 1rem;
-}
