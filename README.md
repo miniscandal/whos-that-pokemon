@@ -42,8 +42,6 @@ npm run dev
 
 ### Demostración
 
-≧◠‿◠≦
-
 <img src="./docs/pictures/rec-screen.gif" width="540">
 
 
@@ -58,7 +56,6 @@ Si no conoces el nombre del Pokémon, puedes usar el código Konami "wwssadadba"
 
 
 ### Tecnologías utilizadas
- ≧◠‿◠≦
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -116,7 +113,7 @@ automáticas de este software. Aunque he realizado pruebas manuales, entiendo la
 de las pruebas automáticas para garantizar la calidad del código y facilitar futuras actualizaciones.
 Esta es una crítica constructiva que planeo abordar en mis futuros proyectos.
 
-En resumen, este proyecto no solo me permitió profundizar en mis habilidades existentes, sino
+En conclusión, este proyecto no solo me permitió profundizar en mis habilidades existentes, sino
 también adquirir nuevas competencias, todas ellas fundamentales para el desarrollo web moderno.
 Estoy emocionado por cómo estas habilidades me permitirán enfrentar futuros desafíos de desarrollo.
 
