@@ -57,13 +57,6 @@ Si no conoces el nombre del Pokémon, puedes usar el código Konami "wwssadadba"
  ≧◠‿◠≦
 
 
-### Tecnologías avanzadas
-
-* [React](https://react.dev/)
-* [Vite](https://vitejs.dev/)
-* [Pokéapi](https://pokeapi.co/docs/v2)
-
-
 ### Tecnologías utilizadas
  ≧◠‿◠≦
 
@@ -74,6 +67,12 @@ Si no conoces el nombre del Pokémon, puedes usar el código Konami "wwssadadba"
 ![JSON](https://img.shields.io/badge/JSON-%2348494a.svg?style=for-the-badge)  
 ![Atomic Design](https://img.shields.io/badge/Atomic%20Design-red.svg?style=for-the-badge&logo=atomic-design&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST%20API-EC9704.svg?style=for-the-badge&logo=api&logoColor=white)
+
+### Referencias
+
+* [React](https://react.dev/)
+* [Vite](https://vitejs.dev/)
+* [Pokéapi](https://pokeapi.co/docs/v2)
 
 
 
