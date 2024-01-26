@@ -1,15 +1,12 @@
 # Who's that Pokémon?
 
-"Who's that Pokémon?" es un videojuego que te reta a identificar tu Pokémon favorito.
-
+"Who's that Pokémon?" es un videojuego que te reta a identificar tu Pokémon favorito.  
 Adivinar el nombre desbloqueara informacion del Pokémon.
 
-¡Prepárate para poner a prueba tus conocimientos y aprender más sobre el fascinante mundo Pokémon!
+¡Prepárate para poner a prueba tus conocimientos y aprender más sobre el fascinante  
+mundo Pokémon!
 
 <img src="./docs/pictures/web-capture.jpeg" width="540">
-
-
-
 
 
 ## Configuración de desarrollo
@@ -19,22 +16,22 @@ Adivinar el nombre desbloqueara informacion del Pokémon.
 
 * Install [Node.js](https://nodejs.org/es) which includes [Node Package Manager](https://docs.npmjs.com)
 
-### Instalación
+### Proceso de implementación
 
-Clone the repository:
+#### Clonar repositorio
 
 ```
 git clone https://github.com/miniscandal/whos-that-pokemon.git
 cd .\whos-that-pokemon\
 ```
 
-Install project dependencies:
+#### Instalar módulos requeridos
 
 ```
 npm install
 ```
 
-Run application:
+#### Iniciar servidor
 
 ```
 npm run dev
