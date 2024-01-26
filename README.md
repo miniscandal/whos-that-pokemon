@@ -42,7 +42,7 @@ npm run dev
 <img src="./docs/pictures/rec-screen.gif" width="540">
 
 
-#### Elementos Secretos
+#### Elementos secretos
 
 Si no conoces el nombre del Pokémon, puedes usar el código Konami "wwssadadba".
 
@@ -78,7 +78,7 @@ Si no conoces el nombre del Pokémon, puedes usar el código Konami "wwssadadba"
 
 
 
-## Reflexiones y Aprendizajes
+## Reflexiones y aprendizajes
 
 ≧◠‿◠≦
 
